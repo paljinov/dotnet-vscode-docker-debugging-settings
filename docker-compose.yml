@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+    app:
+        build:
+            context: .
+            dockerfile: ./docker/Dockerfile.release
+        container_name: dotnet-vscode-docker-debugging-settings
+        stdin_open: true
+        tty: true
