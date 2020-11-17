@@ -1,8 +1,12 @@
 FROM mcr.microsoft.com/dotnet/sdk:5.0-buster-slim AS sdk
 
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+
 # VSDBG debugger
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends unzip \
+    && apt-get install -y --no-install-recommends procps=2:3.3.15-2 unzip=6.0-23+deb10u1 \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/* \
     && curl -sSL https://aka.ms/getvsdbgsh | bash /dev/stdin -v latest -l /vsdbg
 
 WORKDIR /app
