@@ -17,7 +17,7 @@
                 "pipeArgs": [
                     "exec",
                     "-i",
-                    "dotnet-vscode-docker-debugging-settings"
+                    "${workspaceFolderBasename}_app_1"
                 ],
                 "pipeCwd": "${workspaceFolder}",
                 "debuggerPath": "/vsdbg/vsdbg",
@@ -36,13 +36,13 @@
             "name": "Docker .NET Core Attach",
             "type": "coreclr",
             "request": "attach",
-            "processName": "/app/bin/Debug/net5.0/Example",
+            "processId": "${command:csharp.listRemoteProcess}",
             "pipeTransport": {
                 "pipeProgram": "docker",
                 "pipeArgs": [
                     "exec",
                     "-i",
-                    "dotnet-vscode-docker-debugging-settings"
+                    "${workspaceFolderBasename}_app_1"
                 ],
                 "pipeCwd": "${workspaceFolder}",
                 "debuggerPath": "/vsdbg/vsdbg",

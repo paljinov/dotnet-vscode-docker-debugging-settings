@@ -6,4 +6,4 @@ services:
             context: .
             dockerfile: ./docker/Dockerfile.watch
         volumes:
-            - ./:/app
+            - ./src:/app

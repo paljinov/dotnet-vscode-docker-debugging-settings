@@ -6,7 +6,7 @@ namespace Example
     {
         public static void Main()
         {
-            string example = "Isn't this nice example project?";
+            string example = "Isn't this a nice example project?";
             Console.WriteLine(example);
         }
     }

@@ -5,6 +5,5 @@ services:
         build:
             context: .
             dockerfile: ./docker/Dockerfile.release
-        container_name: dotnet-vscode-docker-debugging-settings
         stdin_open: true
         tty: true
