@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Copyright 2020, Pave Aljinovic and Boran Car
+// SPDX-License-Identifier: MIT
+
+using System;
 
 namespace Example
 {

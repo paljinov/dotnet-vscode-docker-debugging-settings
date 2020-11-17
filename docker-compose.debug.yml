@@ -1,3 +1,6 @@
+# Copyright 2020, Pave Aljinovic and Boran Car
+# SPDX-License-Identifier: MIT
+
 version: "3.8"
 
 services:
