@@ -2,11 +2,11 @@
 
 namespace Example
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            string example = "Isn't this nice example project ?";
+            string example = "Isn't this nice example project?";
             Console.WriteLine(example);
         }
     }

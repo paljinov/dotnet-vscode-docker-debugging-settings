@@ -26,10 +26,11 @@
             "sourceFileMap": {
                 "/app": "${workspaceFolder}"
             },
+            "justMyCode": false,
+            "requireExactSource": false,
             "logging": {
                 "moduleLoad": false
-            },
-            "requireExactSource": false
+            }
         },
         {
             "name": "Docker .NET Core Attach",
@@ -50,10 +51,11 @@
             "sourceFileMap": {
                 "/app": "${workspaceFolder}"
             },
+            "justMyCode": false,
+            "requireExactSource": false,
             "logging": {
                 "moduleLoad": false
-            },
-            "requireExactSource": false
+            }
         },
         {
             "name": ".NET Core Launch",
@@ -61,13 +63,13 @@
             "request": "launch",
             "preLaunchTask": "build",
             "program": "${workspaceFolder}/bin/Debug/net5.0/Example.dll",
-            "args": [],
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
+            "justMyCode": false,
+            "requireExactSource": false,
             "logging": {
                 "moduleLoad": false
-            },
-            "requireExactSource": false
+            }
         }
     ]
 }
