@@ -18,9 +18,9 @@ code .
 Then simply select Run->Start Debugging or press F5
 
 ## VS Code settings configuration
-* [launch.json](./.vscode/launch.json)
-* [settings.json](./.vscode/settings.json)
-* [tasks.json](./.vscode/tasks.json)
+* [launch.json](https://github.com/paljinov/dotnet-vscode-docker-debugging-settings/blob/master/.vscode/launch.json)
+* [settings.json](https://github.com/paljinov/dotnet-vscode-docker-debugging-settings/blob/master/.vscode/settings.json)
+* [tasks.json](https://github.com/paljinov/dotnet-vscode-docker-debugging-settings/blob/master/.vscode/tasks.json)
 
 ## Docker development
 
