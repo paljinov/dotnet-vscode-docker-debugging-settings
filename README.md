@@ -17,6 +17,11 @@ code .
 
 Then simply select Run->Start Debugging or press F5
 
+## VS Code settings configuration
+* [launch.json](./.vscode/launch.json)
+* [settings.json](./.vscode/settings.json)
+* [tasks.json](./.vscode/tasks.json)
+
 ## Docker development
 
 ### Run watcher, run source code on file change
